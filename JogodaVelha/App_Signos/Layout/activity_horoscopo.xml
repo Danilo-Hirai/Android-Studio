@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundo"
+    android:orientation="vertical"
+    tools:context=".Horoscopo">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:paddingTop="10sp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingRight="20sp">
+
+                <ImageButton
+                    android:id="@+id/btnaquario"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@layout/botao_aquario"
+                    android:onClick="aquario" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Aquário"
+                    android:textColor="@color/Maroon"
+                    android:textSize="15sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="20/01 a 18/02"
+                    android:textColor="@color/Maroon"
+                    android:textSize="15sp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingRight="20sp">
+
+                <ImageButton
+                    android:id="@+id/btnpeixes"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:onClick="peixes"
+                    android:background="@layout/botao_peixes" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Peixes"
+                    android:textColor="@color/Maroon"
+                    android:textSize="15sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="19/02 a 20/03"
+                    android:textColor="@color/Maroon"
+                    android:textSize="15sp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/btnaries"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:onClick="aries"
+                    android:background="@layout/botao_aries" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Áries"
+                    android:textColor="@color/Maroon"
+                    android:textSize="15sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="21/03 a 19/04"
+                    android:textColor="@color/Maroon"
+                    android:textSize="15sp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:paddingTop="12sp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingRight="20sp">
+
+                <ImageButton
+                    android:id="@+id/btntouro"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:onClick="touro"
+                    android:background="@layout/botao_touro" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Touro"
+                    android:textColor="@color/Maroon"
+                    android:textSize="15sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="20/04 a 20/05"
+                    android:textColor="@color/Maroon"
+                    android:textSize="15sp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingRight="20sp">
+
+                <ImageButton
+                    android:id="@+id/btngemeos"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:onClick="gemeos"
+                    android:background="@layout/botao_gemeos" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Gêmeos"
+                    android:textColor="@color/Maroon"
+                    android:textSize="15sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="21/05 a 21/06"
+                    android:textColor="@color/Maroon"
+                    android:textSize="15sp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/btncancer"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:onClick="cancer"
+                    android:background="@layout/botao_cancer" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Câncer"
+                    android:textColor="@color/Maroon"
+                    android:textSize="15sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="22/06 a 22/07"
+                    android:textColor="@color/Maroon"
+                    android:textSize="15sp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:paddingTop="12sp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingRight="20sp">
+
+                <ImageButton
+                    android:id="@+id/btnleao"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:onClick="leao"
+                    android:background="@layout/botao_leao" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Leão"
+                    android:textColor="@color/Maroon"
+                    android:textSize="15sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="23/07 a 22/08"
+                    android:textColor="@color/Maroon"
+                    android:textSize="15sp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingRight="20sp">
+
+                <ImageButton
+                    android:id="@+id/btnvirgem"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:onClick="virgem"
+                    android:background="@layout/botao_virgem" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Virgem"
+                    android:textColor="@color/Maroon"
+                    android:textSize="15sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="23/08 a 22/09"
+                    android:textColor="@color/Maroon"
+                    android:textSize="15sp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/btnlibra"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:onClick="libra"
+                    android:background="@layout/botao_libra" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Libra"
+                    android:textColor="@color/Maroon"
+                    android:textSize="15sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="23/09 a 22/10"
+                    android:textColor="@color/Maroon"
+                    android:textSize="15sp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:paddingTop="12sp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingRight="20sp">
+
+                <ImageButton
+                    android:id="@+id/btnescorpiao"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:onClick="escorpiao"
+                    android:background="@layout/botao_escorpiao" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Escorpião"
+                    android:textColor="@color/Maroon"
+                    android:textSize="15sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="23/10 a 21/11"
+                    android:textColor="@color/Maroon"
+                    android:textSize="15sp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingRight="20sp">
+
+                <ImageButton
+                    android:id="@+id/btnsagitario"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:onClick="sagitario"
+                    android:background="@layout/botao_sagitario" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Sagitário"
+                    android:textColor="@color/Maroon"
+                    android:textSize="15sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="22/11 a 21/12"
+                    android:textColor="@color/Maroon"
+                    android:textSize="15sp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/btncapricornio"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:onClick="capricornio"
+                    android:background="@layout/botao_capricornio" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Capricórnio"
+                    android:textColor="@color/Maroon"
+                    android:textSize="15sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="22/12 a 19/01"
+                    android:textColor="@color/Maroon"
+                    android:textSize="15sp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:paddingTop="20sp"
+            android:paddingBottom="10sp">
+
+            <Button
+                android:id="@+id/buttonVoltar"
+                android:layout_width="250dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="15dp"
+                android:background="@layout/botao_voltar" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
